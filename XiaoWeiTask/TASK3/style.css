@@ -1,0 +1,46 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body{
+	padding: 20px;
+}
+.left{
+	width:200px;
+	height:150px;
+	padding:20px;
+	position: absolute;
+	border: 2px solid #999;
+}
+.middle{
+	height: 450px;
+	padding: 20px;
+	margin-left: 260px;
+	margin-right: 180px;
+	border: 2px solid #999;
+}
+.right{
+	width: 120px;
+	height: 550px;
+	padding: 20px;
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	border: 2px solid #999;
+}
+.logo{
+	width: 80px;
+	height: 80px;
+	margin: 20px;
+	border: 2px solid #999;
+	background-color: #eee;
+}
+.left .logo{
+	float: left;
+} 
+p{
+	float: right;
+}
+.right .logo{
+	margin: 30px;
+}
