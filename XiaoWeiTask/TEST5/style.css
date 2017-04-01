@@ -1,0 +1,84 @@
+body{
+      margin: 0;
+      padding: 0;
+    }
+    li{
+      list-style: none;
+    }
+    .nav{
+      margin: 0;
+      padding: 0;
+      height: 50px;
+      background: #000;
+      width: 100%;
+    }
+    .logo{
+      height: 100%;
+      width: 100px;
+      float: left;
+      line-height: 50px;
+      text-align: center;
+      color: #fff;
+    }
+    .nav-list{
+      float: right;  
+    }
+    .nav-list li{
+      float: left;
+      color: #fff;
+      list-style: none;
+      margin-right: 10px;
+    }
+    .nav-list4 {
+       color: #ccc !important;
+    }
+    .content{
+      border: 1px solid #000;
+      margin: 20px;
+      padding: 20px;
+      border-radius: 5px;
+    }
+    table{
+      width: 90%;
+    }
+    .tb-head{
+       background-color: #000;
+       color: #fff;
+    }
+    .total{
+      background-color: #ccc;
+      font-weight: bold;
+    }
+    .forms{
+      text-align: center;
+    }
+
+.radioclass {
+cursor: pointer;
+}
+    .textarea-box{
+  width: 300px;
+  height: 100px;
+}
+
+
+.submit{
+  width: 100%;
+  background: blue;
+  display: block;
+  border: 0;
+  height: 40px;
+  text-align: center;
+  color: #fff;
+  font-size: 30px;
+}
+.main{
+  margin-right: 350px;
+
+}
+.side{
+  width: 300px;
+  position: absolute;
+  right: 0;
+  top: 50px;
+}
