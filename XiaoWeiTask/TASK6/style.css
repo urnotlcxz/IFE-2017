@@ -203,6 +203,7 @@ body{
 	float: right;
 	padding: 10px;
 }
+
 .bottom-right{
 	position: relative;
 	float: right;
@@ -236,6 +237,7 @@ body{
 	font: italic 12px 'Microsoft YaHei';
 	color: #72b16a;
 }
+
 .right-content{
 	margin-top: 50px;
 	padding-top: 30px;
@@ -263,7 +265,7 @@ body{
 	height: 160px;
 	width: 260px;
 	background: #d55d5c;
-}
+}/*
 .zero{
 	float: left;
 	margin-left: 10px;
