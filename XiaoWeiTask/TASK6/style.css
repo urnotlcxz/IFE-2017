@@ -208,7 +208,6 @@ body{
 	position: relative;
 	float: right;
 	width: 459px;
-	height: 318px;
 }
 .img{
 	position: relative;
@@ -258,6 +257,13 @@ body{
 	border-left: 5px solid transparent;
 	border-right: 5px solid transparent;
 }
+.right-content p{	
+	margin-left: 20px;
+	text-align:left;
+}
+.qq{
+	text-align:right;
+}
 .red{
 	position: absolute;
 	left: 0;
@@ -265,16 +271,17 @@ body{
 	height: 160px;
 	width: 260px;
 	background: #d55d5c;
-}/*
+}
 .zero{
 	float: left;
-	margin-left: 10px;
-	margin-top: 20px;
+	margin-left: 20px;
+	margin-top: 30px;
 	height:86px;
 	font:  110px 'Microsoft YaHei';
 	color: #ffffff;
 	border-right: 5px solid #ffffff;
-	line-height: 6px;
+	line-height: 80px;
+	
 }
 .one {
 	float: right;
@@ -282,10 +289,14 @@ body{
 	margin-top: 20px;
 	margin-right: 10px;
 	height: 120px;
-	font: italic 21px 'SimSun';
+	font: italic 21px '黑体';
 	color: #ffffff;
 	line-height: 24px;
 	text-align: left;
+}
+.hello{
+	font:  12px '黑体';
+	color: #ffffff;
 }
 .none-writing {
 	position: absolute;
@@ -293,13 +304,14 @@ body{
 	right: 0px;
 	bottom: 0;
 	height: 160px;
-	width: 180px;
-	font: italic 14px 'SimHei';
+	width: 189px;
+	font: italic 14px '黑体';
 	color: #5a5b5b;
 	line-height: 16px;
 	text-align: left;
 }
 .none-writing span {
+	margin-left: -30px;
 	font: 72px 'SimHei';
 	color: #d45d5d;
 }
